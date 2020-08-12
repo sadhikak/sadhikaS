@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY WEBSITE </title>
+	<link rel="stylesheet" type="text/css" href="m.css">
+	<script type="text/javascript" src="new.js"></script>
+</head>
+<body>
+	<header> 
+
+		<div class ="main">
+			<ul>
+				<li class="active"><a href=#home>HOME</a></li>
+				<li><a href=#services>SERVICES</a></li>
+				<li><a href=#about>ABOUT</a></li>
+				<li><a href=#contact>CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h1>WELCOME TO MY PAGE !</h1>
+		<p>HELLO! THIS IS SADHIKA KASAJU.I AM AN IT STUDENT AT NCIT COLLEGE.THE MAIN MOTIVE OF CREATING THIS PAGE IS TO MAKE PEOPLE AWARE ABOUT INCREASING CYBER CRIMES AND PREVENT IT.</p>
+		</div>
+		<div class="button">
+			<a href="#" class="bt">LEARN MORE</a>
+		</div>
+	
+			<!--services-->
+			<section id="services">
+				<div class="service">
+				<div class="service-text">
+					<h3>SERVICES</h3>
+					<p>We conduct various online sessions regarding cyber crimes awareness programmes.We also collaborate with various team experts for the live sessions.</p>
+				</div>
+			</div>
+			</section>
+			<!--about-->
+			<section id="about">
+		<div class="aboutr">
+			<div class="text">
+					<h2>ABOUT</h2>
+					<p>Here me and my group are trying our best in ways possible to minimize the occuring cyber crimes in this century as much as possible.We conduct various pawareness programmes through onnline platform.Keep upto date for participating on the sessions.For more details learn more below. </p>
+				</div>
+				</div>
+			</section>
+			<!--contact-->
+			<section id="contact">
+				<div class="container-row">
+					<div class="contact-right-col">
+						<h5>CONTACT US</h5>
+						<h4>Please sign up to join our group below.</h4>
+						<form class="form" id="form" form action="process.php" method="POST" enctype="form-data">
+		<div class="form-control success">
+		<label>Name</label>
+			<input type="text" placeholder="Enter your name"name="n" required/>
+			<i class="	fas fa-check-circle"></i>
+			<small>Error</small><br>
+
+		</div>
+			<div class="form-control error">
+		<label>Email</label>
+			<input type="email" placeholder="abc@yahoo.com"name="mail" required/>
+			<i class="fas fa-exclamation"></i>
+			<small>Error</small><br>
+		</div>
+		<div class="form-control">
+			<label>Password</label>
+			<input type="password" placeholder="Enter Your Password"name="pas" required/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation"></i>
+			<small>Error</small><br>
+		</div>
+		<div class="form-control">
+		<label>Confirm Password</label>
+			<input type="password" placeholder="Confirm your password"name="pas"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation"></i>
+			<small>Error</small><br>
+		</div><div>
+	</form>
+		<label>Gender:</label><input type="radio"name="g"value="m"checked="checked"/>Male<input type="radio"name="g"value="f"/>Female<input type="radio"name="g"value="o"/>Other<br>
+		<label>Interests:</label><input type="checkbox"name="Intrests"value="Drama"/>Drama<input type="checkbox"name="Intrests"value="Movies"/>Movies<input type="checkbox"name="Intrests"value="Music" required/>Music<br>
+		</div>
+		<input type="submit" name="submit"/>
+</form>
+</div>
+</div>
+</section>
+		</header>
+			
+</body>
+</html>
