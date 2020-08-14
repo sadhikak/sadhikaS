@@ -9,7 +9,7 @@ header{
 	background-image: url("VEN.jpg");
 	background-size:cover;
 	background-position:center;
-	height: 240vh;
+	height: 210vh;
 }
 ul{
 float:right;
@@ -108,6 +108,7 @@ margin-top:10px;
 }
 .contact-right-col h5{
 	font-size:40px;
+	margin-bottom: 5px;
 }
 
 .form{
@@ -118,59 +119,20 @@ padding:02px;
 text-align: right;
 max-width: 350px;
 margin-left:10px;
-max-height: 450px;
+max-height: 250px;
 }
-
-.success input{
-border-color:#10de32;
-}
-.error input{
-	border-color:#eb1809;
-}
-}
-.form-control i{
-	position:relative;
-	font-family:awesome;
-	top:40px;
-	right:10px;
-	visibility:hidden;
+label Email{
+	margin-top: 40px;
 
 }
- label{
-	 margin-left: 10px;
-	 align-items: left;
+
+label{
+	 margin-left: 5px;
+	 align-items:left;
 	 position:absolute;
+	 margin-right: 200px;
 }
-.form-control.success i.fa-check-circle
-{
-	color:green;
-	visibility:hidden;
-}
-.form-control.error i.fa-exclamation-circle
-{
-	color:red;
-	visibility:hidden;
-}
-.form-control.success input{
-	color:green;
-}
-.form-control.error input{
-	color:red;
-}
-.error i.fa-exclamation{
-color:red;
-visibility:hidden;
-}
-.form-control small{
-	visibility:hidden;
-	position:relative;
-	bottom:0;
-	left:0;
-}
-.form-control.error small{
-	color:#eb1809;
-	visibility:hidden;
-}
+
 input[type=text]{
 	display:block;
 	margin-bottom:1px;
